@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Pisos</title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <img id="logo" src="img/logo.png" > 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links"
+                    aria-bs-controls="navbar-links" aria-bs-expanded="false" aria-bs-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu">Home</a>
+                        <a class="nav-item nav-link" id="about-menu">Empresa</a>
+                        <a class="nav-item nav-link" id="services-menu">Serviços</a>
+                        <a class="nav-item nav-link" id="portfolio-menu">Projetos</a>
+                        <a class="nav-item nav-link" id="contact-menu">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/baner1.jpg" class="d-block w-100" alt="Projetos de e-commerce" width="1920" height="930">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Seja Bem Vindo a Eduardo Pisos !</h2>
+                            <p>Trabalhamos com Pisos vinilicos , Rodapés e Carpetes.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/baner2.png" class="d-block w-100" alt="Engenharia de Software" width="1920" height="930">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Realizamos serviços para lojas, apartamentos e casas!</h2>
+                            <p>Incluindo todos os cômodos.</p>
+                        </div>
+                    </div>
+                </div>
+                <button data-bs-target="#mainSlider" class="carousel-control-prev" type="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button data-bs-target="#mainSlider" class="carousel-control-next" type="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Sobre a empresa -->
+            <div id="about-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Sobre a Empresa</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="img/logo.png"  width="1280" height="851" >
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="about-title">trabalhamos sempre buscando a qualidade do serviço </h3>
+                            <p>Nossos projetos são adaptados ao cliente e seu propósito.</p>
+                            <p>diversos modelos de pisos , rodapés e carpetes disponiveis.</p>
+                            <p>realizamos a montagem para todos os cômodos da casa , apartamento ou loja .</p>
+                            <p>Veja outros diferenciais:</p>
+                            <ul id="about-list">
+                                <li><i class="fas fa-check"></i> Qualidade.</li>
+                                <li><i class="fas fa-check"></i> Rapidez.</li>
+                                <li><i class="fas fa-check"></i> Praticidade.</li>
+                                <li><i class="fas fa-check"></i> Dentro do prazo.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Serviços da empresa -->
+            <div id="services-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Nossas especialidades</h3>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="bi bi-calendar2-check"></i>
+                            <h4>Prazo</h4>
+                            <p>Realizamos o serviço no prazo combinado , para a satisfação dos clientes.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="bi bi-alarm"></i>
+                            <h4>Rapidez</h4>
+                            <p>Buscamos entregar o serviço rapidamente mas sempre buscando a qualidade maxima do nosso produto.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-paint-brush"></i>
+                            <h4>Diversos Modelos</h4>
+                            <p>Temos todos os tipos de modelos de pisos, carpetes e rodapés disponiveis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="call-area">
+                <div class="container">
+                    <div class="row">
+                        <p>Deseja fazer um orçamento sem compromisso?</p>
+                        <a href="https://wa.me/5541998872095"><img  class="whats" src="img/whatsapp.png" width="60" height="60"></a> 
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Trabalhe Conosco -->
+            <div id="apply-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 apply-box" id="pattern-img">
+                            <h4>Veja mais sobre nossos trabalhos</h4>
+                            <p>Temos diversas variedades de pisos , carpétes e rodapés. </p>
+                            <p>Clique no botão abaixo e confira nossos trabalhos.</p>
+                            <a href="https://www.facebook.com/profile.php?id=100024665174538" class="main-btn" id="apply-btn"><i class="bi bi-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfólio -->
+            <div id="portfolio-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="main-title">
+                                Conheça nossos projetos
+                            </h3>
+                        </div>
+                        <div class="col-md-12" id="filter-btn-box">
+                            <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+                            <button class="main-btn filter-btn" id="dev-btn">Pisos</button>
+                            <button class="main-btn filter-btn" id="dsg-btn">Rodapés</button>
+                            <button class="main-btn filter-btn" id="seo-btn">Carpetes</button>
+                        </div>
+                        <div class="col-md-4 project-box dev">
+                            <img class="imgpisos" src="img/pisopri.png" >
+                        </div>
+                        <div class="col-md-4 project-box dsg">
+                            <img class="imgpisos" src="img/rodape.png" >
+                        </div>
+                        <div class="col-md-4 project-box seo">
+                            <img class="imgpisos" src="img/carpete.jpg" >
+                        </div>
+                        <div class="col-md-4 project-box dev">
+                            <img class="imgpisos" src="img/piso3.png" >
+                        </div>
+                        <div class="col-md-4 project-box dsg">
+                            <img class="imgpisos" src="img/rodape2.png" >
+                        </div> 
+                        <div class="col-md-4 project-box seo">
+                            <img class="imgpisos" src="img/carpete2.png" >
+                        </div>
+                        <div class="col-md-4 project-box dev">
+                            <img class="imgpisos" src="img/piso6.png" >
+                        </div>
+                        <div class="col-md-4 project-box dsg">
+                            <img class="imgpisos" src="img/rodape3.png" >
+                        </div>
+                        <div class="col-md-4 project-box seo">
+                            <img class="imgpisos" src="img/carpete3.png"  >
+                        </div>
+                </div>
+            </div>
+            
+            <!-- Call to Action -->
+            <div id="call-area">
+                <div class="container">
+                    <div class="row">
+                        <p>Deseja fazer um orçamento sem compromisso?</p>
+                        <a href="https://wa.me/5541998872095"><img  class="whats" src="img/whatsapp.png" width="60" height="60"></a> 
+                    </div>
+                </div>
+            </div>
+            <div id="data-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 apply-box" id="pattern-img">
+                            <h3 class="main-title2">
+                                Outros Contatos
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <div id="contact-area">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-phone"></i>
+                        <p><span class="contact-title">Ligue para:</span> (41)99887-2095</p>
+                        <p><span class="contact-title"> Horários:</span></p>
+                        <p><span class="contact-title"> segunda a sexta:</span> 8:30 - 18:00</p>
+                        <p><span class="contact-title"> sábado:</span> 8:30 - 13:00</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-envelope"></i>
+                        <p><span class="contact-title">Envie um e-mail:</span> eluciano557@gmail.com</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p><span class="contact-title">Curitiba / PR</span>:</span>  Av. Frederico Lambertucci 236</p>
+                    </div>
+                    <div class="col-md-6" id="msg-box">
+                        <p>Ou nos envie um e-mail:</p>
+                    </div>
+                    <div class="col-md-6" id="contact-form">
+                        <form action="">
+                            <input type="email" class="form-control" placeholder="email" name="email">
+                            <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                            <textarea class="form-control" rows="3" placeholder="Sua mensagem ..." name="message"></textarea>
+                            <input type="submit" class="main-btn" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copy-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Desenvolvido por <strong>Lucas Souza</strong>, 2022.</p> <a href="https://github.com/lucassouzah"><i class="bi bi-github"></i></a> <a href="https://www.instagram.com/l_souzahh/"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--Progress Bar-->
+    <script src="js/progressbar.min.js"></script>
+    <!--Scripts-->
+    <script src="js/scripts.js"></script>
+    
+</body>
+</html>
