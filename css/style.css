@@ -509,7 +509,7 @@ header, .navbar {
 
 /* Responsive */
 
-@media(max-width: 768px) {
+@media screen and (max-width:1020px) {
 
     /* geral */
     .container {
@@ -519,7 +519,7 @@ header, .navbar {
 
     /* Slider */
     .navbar .navbar-toggler {
-        margin-right: 16px;
+        margin-right: 15px;
     }
 
     #mainSlider .carousel-inner, #mainSlider .carousel-item {
@@ -593,7 +593,7 @@ header, .navbar {
 }
 
 /* Mobile */
-@media(max-width:400px) {
+@media screen and (max-width:400px) {
 
     .container{
         padding: 20px 0;
